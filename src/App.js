@@ -9,8 +9,8 @@ import MovieLists from "./features/movies/MovieLists";
 
 const App = () => {
   return (
-    <div className="wrapper" basename={"/outsidetask"}>
-      <BrowserRouter>
+    <div className="wrapper">
+      <BrowserRouter basename={"/outsidetask"} >
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/home" element={<Home />} />
