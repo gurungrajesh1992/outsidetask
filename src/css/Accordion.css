@@ -1,0 +1,134 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,600&display=swap");
+
+/* * {
+  box-sizing: border-box;
+  margin: 200;
+  padding: 200;
+} */
+
+.accordion__section {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.accordion {
+  background-color: #fff;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  /* display: flex; */
+  align-items: center;
+  border: none;
+  outline: none;
+  transition: background-color 0.6s ease;
+}
+
+.accordion:hover,
+.active {
+  background-color: #fff;
+  box-shadow: 2px 2px 5px #ddd;
+}
+
+.accordion__title {
+  font-family: "Open Sans", sans-serif;
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.accordion__icon {
+  margin-left: auto;
+  transition: transform 0.6s ease;
+}
+
+.rotate {
+  transform: rotate(90deg);
+}
+
+.accordion__content {
+  background-color: white;
+  overflow: hidden;
+  transition: max-height 0.6s ease;
+  box-shadow: 2px 2px 5px #ddd;
+}
+
+.accordion__text {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  padding: 18px;
+  line-height: 28px;
+  color: #706a6a;
+  text-align: justify;
+}
+
+.imgItem {
+  height: 150px;
+  width: 100%;
+  object-fit: cover;
+  margin-bottom: 15px;
+}
+
+a.movie_link {
+  text-decoration: none;
+  color: #fff;
+}
+
+p.movie_button {
+  background: orange;
+  width: 100px;
+  padding: 7px;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.accordion p {
+  width: 100%;
+}
+
+.wrapper {
+  text-align: -webkit-center;
+  background: #000;
+  color: #fff;
+  padding-bottom: 20px;
+}
+
+h2.homeTitle {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.home h2 {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.contentWrapper {
+  background: #fff;
+  padding: 15px;
+}
+
+.image {
+  height: 150px;
+  width: 200px;
+  margin-right: 20px;
+}
+
+.buttonadd {
+  margin-bottom: 20px;
+}
+
+p.director {
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.text {
+  display: inline-block;
+}
+
+.home {
+  height: 97vh;
+  text-align: -webkit-center;
+  padding-top: 50px;
+}
