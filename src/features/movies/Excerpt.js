@@ -51,11 +51,11 @@ const Excerpt = ({ item }) => {
     // ServicesOne(`Movie Added`)
     promise.then(
       (result) => {
-        console.log(result);
+        // console.log(result);
         ServicesOne(`${item.title} Movie Added`);
       },
       (error) => {
-        console.log(error);
+        // console.log(error);
         ServicesOne(`Unable To Add Movie`);
       }
     );
