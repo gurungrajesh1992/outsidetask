@@ -8,7 +8,7 @@ const PopupModal = ({ directorId, handleClick, show }) => {
   const directors = useSelector(selectAllDirectors);
 
   const director = directors.find((director) => director.id === directorId);
-  console.log(director);
+  // console.log(director);
   return (
     <>
       <Modal
