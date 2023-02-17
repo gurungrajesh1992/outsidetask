@@ -11,14 +11,14 @@ import MovieLists from "./features/movies/MovieLists";
 const App = () => {
   return (
     <div className="wrapper">
-      <BrowserRouter basename={"/outsidetask"}>
+      <Router>
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/home" element={<Home />} />
           <Route path="/movies" element={<MovieLists />} />
           {/* <Home /> */}
         </Routes>
-      </BrowserRouter>
+      </Router>
       <ToastContainer autoClose={5000} />
     </div>
   );
